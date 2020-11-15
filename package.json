@@ -18,7 +18,6 @@
     "url": "https://github.com/jtillson1/tech-blog/issues"
   },
   "homepage": "https://github.com/jtillson1/tech-blog#readme",
- 
   "dependencies": {
     "bcrypt": "^5.0.0",
     "connect-session-sequelize": "^7.0.1",

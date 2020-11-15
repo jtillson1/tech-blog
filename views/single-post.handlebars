@@ -1,17 +1,14 @@
 {{> post-info post }}
-
 {{#if loggedIn}}
 <form class="comment-form">
     <div>
         <textarea id="comment-body" name="comment-body" placeholder="Add comment here..."></textarea>
     </div>
-
     <div>
         <button type="submit">add comment</button>
     </div>
 </form>
 {{/if}}
-
 {{> comments post.comments}}
 
 {{#if loggedIn}}
